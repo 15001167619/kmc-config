@@ -24,4 +24,4 @@ zuul:
 
 ribbon:
   eureka:
-    enable: true
+    enable: true  # 心跳设置问题; Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client xxxxx
