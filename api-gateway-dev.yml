@@ -21,3 +21,7 @@ zuul:
     auth:
       path: /auth/**
       service-id: api-rest-auth
+
+ribbon:
+  eureka:
+    enable: true
