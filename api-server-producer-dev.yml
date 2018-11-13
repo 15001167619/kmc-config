@@ -7,7 +7,6 @@ management:
     health:
       show-details: ALWAYS
 
-
 jwt:
   header: Authorization   #http请求头所需要的字段
   secret: mySecret        #jwt秘钥
@@ -72,6 +71,16 @@ spring:
         min-idle: 0
     #连接超时时间
     timeout: 10000
+
+  cloud:
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
