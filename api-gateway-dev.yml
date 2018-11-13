@@ -3,6 +3,9 @@ management:
     web:
       exposure:
         include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
 
 zuul:
   prefix: /api                          # 开启全局 路径
