@@ -1,12 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: ALWAYS
-
 jwt:
   header: Authorization   #http请求头所需要的字段
   secret: mySecret        #jwt秘钥
