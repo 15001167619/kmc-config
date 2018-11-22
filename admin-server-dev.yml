@@ -23,9 +23,8 @@ spring:
     admin:
       notify:
         mail:
-          to:
-            - 15001167619@163.com
-            - 1294687323@qq.com
+          to: 15001167619@163.com
+            #- 1294687323@qq.com
           from: 455374274@qq.com
 
 
