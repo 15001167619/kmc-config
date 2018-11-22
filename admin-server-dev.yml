@@ -23,7 +23,7 @@ spring:
     admin:
       notify:
         mail:
-          to: hswu@ai-kang.cn,15001167619@163.com
+          to: [hswu@ai-kang.cn,15001167619@163.com]
           from: 455374274@qq.com
 
 
