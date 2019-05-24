@@ -26,7 +26,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://zkhc.public.server:548/local_test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai
+      url: jdbc:mysql://123.56.15.166:3306/rongyi?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai
       username: root
       password: root.zkhcDB.0501
       # 配置初始化大小、最小、最大
@@ -56,9 +56,9 @@ spring:
       # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   redis:
-    host: 61.136.79.247
-    password: dev.13460cdb3efd4
-    port: 551
+    host: 123.56.15.166
+    password: pwd666
+    port:
     jedis:
       pool:
         #最大连接数
@@ -78,7 +78,7 @@ spring:
       trace:
         enabled: true
   rabbitmq:
-    host: 127.0.0.1
+    host: 123.56.15.166
     port: 5672
     username: guest
     password: guest
