@@ -58,7 +58,7 @@ spring:
   redis:
     host: 123.56.15.166
     password: pwd666
-    port:
+    port: 6379
     jedis:
       pool:
         #最大连接数
